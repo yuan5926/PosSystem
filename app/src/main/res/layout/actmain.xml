@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".ActMain">
+
+    <Button
+        android:textColor="#eeeeee"
+        android:background="#3399ff"
+        android:id="@+id/btn紅茶"
+        android:layout_width="169dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="15sp"
+        android:paddingTop="5sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="5sp"
+        android:text="紅茶"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn綠茶"
+        android:layout_width="169dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#3399ff"
+        android:paddingLeft="15sp"
+        android:paddingTop="5sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="5sp"
+        android:text="綠茶"
+        android:textColor="#eeeeee"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn紅茶"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:textColor="#eeeeee"
+        android:background="#3399ff"
+        android:id="@+id/btn麥茶"
+        android:layout_width="169dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="15sp"
+        android:paddingTop="5sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="5sp"
+        android:text="麥茶"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn烏龍茶"
+        android:layout_width="169dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#3399ff"
+        android:paddingLeft="15sp"
+        android:paddingTop="5sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="5sp"
+        android:text="烏龍茶"
+        android:textColor="#eeeeee"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn麥茶"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:textColor="#eeeeee"
+        android:background="#3399ff"
+        android:id="@+id/btn冬瓜茶"
+        android:layout_width="169dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="184dp"
+        android:paddingLeft="15sp"
+        android:paddingTop="5sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="5sp"
+        android:text="冬瓜茶"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn奶茶"
+        android:layout_width="169dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#3399ff"
+        android:paddingLeft="15sp"
+        android:paddingTop="5sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="5sp"
+        android:text="奶茶"
+        android:textColor="#eeeeee"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn冬瓜茶"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="368dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:background="#66b3ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn冬瓜茶">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:background="#0073e6"
+            android:paddingLeft="10sp"
+            android:paddingTop="9sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="9sp"
+            android:text="冰塊"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:layout_width="293dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:background="#eeeeee"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/rdb去冰"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="去冰"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rdb微冰"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="微冰"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rdb少冰"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="少冰"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rdb正常冰"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingRight="5sp"
+                android:text="正常"
+                android:textColor="#333"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="293dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="92dp"
+            android:background="#eeeeee"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/rdb無糖"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="無\n糖"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rdb微糖"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="微糖"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rdb半糖"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="半糖"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rdb少糖"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="少糖"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rdb全糖"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="全糖"
+                android:textColor="#333"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginTop="92dp"
+            android:background="#0073e6"
+            android:paddingLeft="10sp"
+            android:paddingTop="9sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="9sp"
+            android:text="糖度"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.Group
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.constraint.Barrier
+            android:id="@+id/barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="left" />
+
+        <Button
+            android:id="@+id/btn確認"
+            android:layout_width="178dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="156dp"
+            android:background="#fff"
+            android:text="確  認"
+            android:textColor="#0073e6"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="152dp"
+            android:text="金額:"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl金額"
+            android:layout_width="163dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="188dp"
+            android:background="#fff"
+            android:paddingTop="3sp"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
